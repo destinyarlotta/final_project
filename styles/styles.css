@@ -2,7 +2,8 @@ body {
   margin: 0px;
 
 }
-button {font-size: 80%;}
+button {font-size: 80%;
+  cursor: pointer;}
 
 .myDiv {
     background-color: #000;
@@ -344,6 +345,7 @@ padding: 50px;
 #virgo {margin-left:10px;}
 
 .biggie {width: 300px;}
+
 @media (max-width: 4000px) {
   body {background:#E6E6FA}
   h4 {background:#E6E6FA}
@@ -396,6 +398,7 @@ padding: 50px;
   #virgo {margin-left:5px;}
 
   }
+
 
   @media (max-width: 700px) {
     img {width: 170px;}

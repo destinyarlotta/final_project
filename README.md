@@ -12,3 +12,8 @@ Week 2
 This week, I have accomplished my goals. When you hover over a sign, it enlarges slightly, and even highlights in a brighter color. On click, it enlarges and brings you to the sign’s page which has its corresponding information. It also links to the two compatibility matches via buttons. When clicking on the button that says “choose a new astrological sign” the app clears saved data and goes back to the home page with the circle icons.
 
 I struggled with the concept of clicking deeper and deeper into the app. I have all of my buttons functioning, but as of right now, I do not have the ability to go from 1 compatibility match to view the other. I was, however, able to show only the description text for compatibility matches and hide the unnecessary information! I am very proud of that. I am very pleased that I have learned how to manipulate hide and show more efficiently and effectively. While I still have work to do with jQuery, at least I learned a lot and will move forward to improve my skills.
+
+
+Week 3
+This week I changed the buttons.
+https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
