@@ -63,7 +63,7 @@ $(document).ready(function() {
     $('#scorpio').hide();
     $('#virgo').hide();
     $('#libra').hide();
-    $('.biggie').show();
+
 
 
   });
@@ -271,124 +271,74 @@ $(document).ready(function() {
 
 
 
+
+
   });
 
 });
+//show both matches for each sign
 
-$('#ariesmatch').click(function() {
-  $('#aries_intro').show();
-    $('#libra_info').hide();
-    $('#sagittarius5match').show();
+$('#aries_both_matches').click(function() {
+  $('#aries_info').hide();
+    $('#libra_intro').show();
+    $('#leo_intro').show();
 });
-
-
-$('#aries2match').click(function() {
-  $('#aries_intro').show();
-    $('#sagittarius_info').hide();
-});
-
-$('#piscesmatch').click(function() {
-  $('#pisces_intro').show();
-    $('#virgo_info').hide();
-});
-$('#taurusmatch').click(function() {
-  $('#taurus_intro').show();
-    $('#scorpio_info').hide();
-});
-$('#taurus2match').click(function() {
-  $('#taurus_intro').show();
-    $('#cancer_info').hide();
-});
-$('#taurus3match').click(function() {
-  $('#taurus_intro').show();
-    $('#capricorn_info').hide();
-});
-$('#taurus4match').click(function() {
-  $('#taurus_intro').show();
-    $('#pisces_info').hide();
-});
-$('#aquariusmatch').click(function() {
-  $('#aquarius_intro').show();
-    $('#leo_info').hide();
-});
-$('#geminimatch').click(function() {
-  $('#gemini_intro').show();
-    $('#leo_info').hide();
-});
-$('#gemini2match').click(function() {
-  $('#gemini_intro').show();
-    $('#sagittarius_info').hide();
-});
-$('#aquariusmatch').click(function() {
-  $('#aquarius_intro').show();
-    $('#leo_info').hide();
-});
-$('#capricornmatch').click(function() {
-  $('#capricorn_intro').show();
-    $('#cancer_info').hide();
-});
-$('#aquariusmatch').click(function() {
-  $('#aquarius_intro').show();
-    $('#leo_info').hide();
-});
-$('#aquarius2match').click(function() {
-  $('#aquarius_intro').show();
-    $('#gemini_info').hide();
-});
-$('#cancermatch').click(function() {
-  $('#cancer_intro').show();
-    $('#virgo_info').hide();
-});
-$('#cancer2match').click(function() {
-  $('#cancer_intro').show();
-    $('#scorpio_info').hide();
-  });
-  $('#cancer3match').click(function() {
-    $('#cancer_intro').show();
-      $('#capricorn_info').hide();
-    });
-    $('#cancer4match').click(function() {
-      $('#cancer_intro').show();
-        $('#taurus_info').hide();
-});
-$('#sagittariusmatch').click(function() {
-  $('#sagittarius_intro').show();
-    $('#libra_info').hide();
-});
-$('#sagittarius2match').click(function() {
-  $('#sagittarius_intro').show();
-    $('#gemini_info').hide();
-});
-$('#sagittarius3match').click(function() {
-  $('#sagittarius_intro').show();
-    $('#aquarius_info').hide();
-});
-$('#leomatch').click(function() {
-  $('#leo_intro').show();
-    $('#aquarius_info').hide();
-});
-$('#leo2match').click(function() {
-  $('#leo_intro').show();
-    $('#aries_info').hide();
-});
-$('#scorpiomatch').click(function() {
-  $('#scorpio_intro').show();
-    $('#taurus_info').hide();
-});
-$('#scorpiomatch').click(function() {
-  $('#scorpio_intro').show();
-    $('#taurus_info').hide();
-  });
-  $('#virgomatch').click(function() {
+$('#pisces_both_matches').click(function() {
+  $('#pisces_info').hide();
     $('#virgo_intro').show();
-      $('#pisces_info').hide();
-      $('#pisces').hide();
+    $('#taurus_intro').show();
 });
-    $('#libramatch').click(function() {
-      $('#libra_intro').show();
-        $('#aries_info').hide();
+$('#taurus_both_matches').click(function() {
+  $('#scorpio_intro').show();
+  $('#cancer_intro').show();
+    $('#taurus_info').hide();
+});
+$('#aquarius_both_matches').click(function() {
+  $('#aquarius_info').hide();
+    $('#leo_intro').show();
+    $('#sagittarius_intro').show();
+});
+$('#gemini_both_matches').click(function() {
+  $('#gemini_info').hide();
+    $('#sagittarius_intro').show();
+    $('#aquarius_intro').show();
+});
+$('#capricorn_both_matches').click(function() {
+  $('#capricorn_info').hide();
+    $('#cancer_intro').show();
+    $('#taurus_intro').show();
+});
+  $('#cancer_both_matches').click(function() {
+    $('#cancer_info').hide();
+      $('#capricorn_intro').show();
+      $('#taurus_intro').show();
+});
+$('#sagittarius_both_matches').click(function() {
+  $('#sagittarius_info').hide();
+    $('#gemini_intro').show();
+    $('#aries_intro').show();
+});
+$('#leo_both_matches').click(function() {
+  $('#leo_info').hide();
+    $('#aquarius_intro').show();
+    $('#gemini_intro').show();
+});
+$('#scorpio_both_matches').click(function() {
+  $('#scorpio_info').hide();
+    $('#taurus_intro').show();
+    $('#cancer_intro').show();
+});
+  $('#virgo_both_matches').click(function() {
+    $('#virgo_info').hide();
+      $('#pisces_intro').show();
+      $('#cancer_intro').show();
+});
+    $('#libra_both_matches').click(function() {
+      $('#libra_info').hide();
+        $('#aries_intro').show();
+        $('#sagittarius_intro').show();
+});
 
-});
 $('#homepage').click(function() {
   $('#aries_info').hide();
   $('#pisces_info').hide();
@@ -439,6 +389,48 @@ $('#homepage').click(function() {
       $('#virgo').show();
       $('#libra').show();
   });
+
+
+  /*Scroll to top when arrow up clicked BEGIN*/
+  $(window).scroll(function() {
+      var height = $(window).scrollTop();
+      if (height > 100) {
+          $('#back2Top').fadeIn();
+      } else {
+          $('#back2Top').fadeOut();
+      }
+  });
+  $(document).ready(function() {
+      $("#back2Top").click(function(event) {
+          event.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+      });
+
+  });
+   /*Scroll to top when arrow up clicked END*/
+
+
+     /*Scroll to bottom when arrow up clicked BEGIN*/
+     $(window).scroll(function() {
+         var height = $(window).scrollBottom();
+         if (height > 800) {
+             $('#back2Bottom').fadeIn();
+         } else {
+             $('#back2Bottom').fadeOut();
+         }
+     });
+     $(document).ready(function() {
+         $("#back2Bottom").click(function(event) {
+             event.preventDefault();
+             $("html, body").animate({ scrollBottom: 0 }, "slow");
+             return false;
+         });
+
+     });
+      /*Scroll to bottom when arrow up clicked END*/
+
+
 
 //hidden big 12 icons
 
