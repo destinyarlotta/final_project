@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   function hideAll() {
     $('#aries_info').hide();
     $('#pisces_info').hide();
@@ -36,11 +37,11 @@ $(document).ready(function() {
         $('#scorpio5match').hide();
         $('#virgo5match').hide();
         $('#libra5match').hide();
-
+      }
 
 //above hides all info text to start
 
-}
+
   hideAll();
 //calls the action of hiding
 
@@ -63,8 +64,6 @@ $(document).ready(function() {
     $('#scorpio').hide();
     $('#virgo').hide();
     $('#libra').hide();
-
-
 
   });
 
@@ -254,7 +253,7 @@ $(document).ready(function() {
   $('#libra').click(function() {
     $('#libra_info').show();
     console.log("Hello there!");
-  $('#libra').hide();
+    $('#libra').hide();
     $('#pisces').hide();
     $('#taurus').hide();
     $('#aquarius').hide();
@@ -266,14 +265,6 @@ $(document).ready(function() {
     $('#scorpio').hide();
     $('#virgo').hide();
     $('#aries').hide();
-
-
-
-
-
-
-
-  });
 
 });
 //show both matches for each sign
@@ -400,88 +391,14 @@ $('#homepage').click(function() {
           $('#back2Top').fadeOut();
       }
   });
-  $(document).ready(function() {
+
       $("#back2Top").click(function(event) {
           event.preventDefault();
-          $("html, body").animate({ scrollTop: 0 }, "slow");
+          $("html, body").animate({ scrollTop: 10 }, "slow");
           return false;
       });
 
-  });
    /*Scroll to top when arrow up clicked END*/
 
 
-     /*Scroll to bottom when arrow up clicked BEGIN*/
-     $(window).scroll(function() {
-         var height = $(window).scrollBottom();
-         if (height > 800) {
-             $('#back2Bottom').fadeIn();
-         } else {
-             $('#back2Bottom').fadeOut();
-         }
-     });
-     $(document).ready(function() {
-         $("#back2Bottom").click(function(event) {
-             event.preventDefault();
-             $("html, body").animate({ scrollBottom: 0 }, "slow");
-             return false;
-         });
-
-     });
-      /*Scroll to bottom when arrow up clicked END*/
-
-
-
-//hidden big 12 icons
-
-//12 times
-
-var aries_icon = "<img src='images/aries13.png' class='biggie' alt='Aries'>"
-$('#aries').append(aries_icon);
-$('#aries').remove(aries_icon);
-
-var pisces_icon = "<img src='images/pisces.png' class='biggie' alt='Pisces'>"
-$('#somediv').append(pisces_icon);
-$('#somediv').remove(pisces_icon);
-
-var taurus_icon = "<img src='images/foo.png' class='biggie' alt='Taurus'>"
-$('#somediv').append(taurus_icon);
-$('#somediv').remove(taurus_icon);
-
-var aquarius_icon = "<img src='images/foo.png' class='biggie' alt='Aquarius'>"
-$('#somediv').append(aquarius_icon);
-$('#somediv').remove(aquarius_icon);
-
-var gemini_icon = "<img src='images/gemini3.png' class='biggie' alt='Gemini'>"
-$('#gemini').append(gemini_icon);
-$('#somediv').remove(gemini_icon);
-
-var capricorn_icon = "<img src='images/capricorn4.png' class='biggie' alt='Capricorn'>"
-$('#somediv').append(capricorn_icon);
-$('#somediv').remove(capricorn_icon);
-
-var cancer_icon = "<img src='images/cancer2.png' class='biggie' alt='Cancer'>"
-$('#somediv').append(cancer_icon);
-$('#somediv').remove(cancer_icon);
-
-var sagittarius_icon = "<img src='images/sagittarius.png' class='biggie' alt='Sagitarrius'>"
-$('#somediv').append(sagittarius_icon);
-$('#somediv').remove(sagittarius_icon);
-
-var leo_icon = "<img src='images/leo2.png' class='biggie' alt='Leo'>"
-$('#somediv').append(leo_icon);
-$('#somediv').remove(leo_icon);
-
-var scorpio_icon = "<img src='images/scorpio10.png' class='biggie' alt='Scorpio'>"
-$('#somediv').append(scorpio_icon);
-$('#somediv').remove(scorpio_icon);
-
-var virgo_icon = "<img src='images/virgo2.png' class='biggie' alt='Virgo'>"
-$('#somediv').append(virgo_icon);
-$('#somediv').remove(virgo_icon);
-
-var libra_icon = "<img src='images/libra2.png' class='biggie' alt='Libra'>"
-$('#somediv').append(libra_icon);
-$('#somediv').remove(libra_icon);
-
-//use class biggie in css to give a pixel width for sizing
+}); // end document ready

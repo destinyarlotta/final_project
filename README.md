@@ -13,7 +13,11 @@ This week, I have accomplished my goals. When you hover over a sign, it enlarges
 
 I struggled with the concept of clicking deeper and deeper into the app. I have all of my buttons functioning, but as of right now, I do not have the ability to go from 1 compatibility match to view the other. I was, however, able to show only the description text for compatibility matches and hide the unnecessary information! I am very proud of that. I am very pleased that I have learned how to manipulate hide and show more efficiently and effectively. While I still have work to do with jQuery, at least I learned a lot and will move forward to improve my skills.
 
-
 Week 3
-This week I changed the buttons.
-https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
+
+This week I added responsiveness to the web app, changed the body background color to a light lavender to match my starry background, created a favicon, added a scroll-to-top arrow feature, and changed my buttons for the compatibility match feature so that both matches are viewed at the same time.
+I originally planned to have the user click on one compatibility match, read only its description, and then have the option to click to view the other compatibility match's description or click start over and return to the main menu. I found that it is much more efficient and user-friendly if I show both match descriptions at the same time from one button click, and then just always have the option to choose a different astrological sign via a button at the bottom of the page.
+
+I found the scroll-to-top tool from https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/. It allows the user to click the arrow and immediately be taken to the top of the webpage. This is very useful when clicking the "choose a new astrological sign" button because then you can click the arrow and be taken back to the top.
+
+I ran into complications with the hover feature when in the phone size. It was breaking everything into a non-oval shape until I realized that I could specify the hover image width within the media query. However, I was able to solve all function issues and I have a fully-usable web app due to my work from this week. 
