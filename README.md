@@ -20,4 +20,6 @@ I originally planned to have the user click on one compatibility match, read onl
 
 I found the scroll-to-top tool from https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/. It allows the user to click the arrow and immediately be taken to the top of the webpage. This is very useful when clicking the "choose a new astrological sign" button because then you can click the arrow and be taken back to the top.
 
-I ran into complications with the hover feature when in the phone size. It was breaking everything into a non-oval shape until I realized that I could specify the hover image width within the media query. However, I was able to solve all function issues and I have a fully-usable web app due to my work from this week. 
+I found out how to add the favicon to my Filezilla via this forum. https://forum.filezilla-project.org/viewtopic.php?p=73284#p73284.
+
+I ran into complications with the hover feature when in the phone size. It was breaking everything into a non-oval shape until I realized that I could specify the hover image width within the media query. However, I was able to solve all function issues and I have a fully-usable web app due to my work from this week.
