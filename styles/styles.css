@@ -326,7 +326,7 @@ padding: 40px;
       filter: alpha(opacity=60);
 }
 
-.container .first {padding-top:55px;text-align:center;}
+.container .first {padding-top:30px;text-align:center;}
 .container .second {text-align:center;}
 .container .third {margin:10px;text-align:center;}
 .container .fourth {margin:10px;text-align:center;}
@@ -364,16 +364,16 @@ padding: 40px;
   .myDiv {width: 100%;}
   .myDiv {margin:0px;}
   .stars {margin:0px;}
-  #pisces {margin-right: 5px;}
-  #taurus {margin-left:5px;}
-  #aquarius {margin-right: 40px;}
-  #gemini {margin-left: 40px;}
-  #capricorn{margin-right: 70px;}
-  #cancer {margin-left:70px;}
-  #sagittarius{margin-right: 40px;}
-  #leo {margin-left:40px;}
-  #scorpio{margin-right: 5px;}
-  #virgo {margin-left:5px;}
+  #pisces {margin-right: 10px;}
+  #taurus {margin-left:10px;}
+  #aquarius {margin-right: 80px;}
+  #gemini {margin-left: 80px;}
+  #capricorn{margin-right: 110px;}
+  #cancer {margin-left:110px;}
+  #sagittarius{margin-right: 80px;}
+  #leo {margin-left:80px;}
+  #scorpio{margin-right: 10px;}
+  #virgo {margin-left:10px;}
 
   }
 

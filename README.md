@@ -23,3 +23,12 @@ I found the scroll-to-top tool from https://html-online.com/articles/dynamic-scr
 I found out how to add the favicon to my Filezilla via this forum. https://forum.filezilla-project.org/viewtopic.php?p=73284#p73284.
 
 I ran into complications with the hover feature when in the phone size. It was breaking everything into a non-oval shape until I realized that I could specify the hover image width within the media query. However, I was able to solve all function issues and I have a fully-usable web app due to my work from this week.
+
+
+Final Summary of My Project
+
+Throughout the process of creating my web app, my biggest challenges were due to jQuery and responsiveness. I had anticipated having difficulty with jQuery because I did not have a firm understanding of the language before I started the project. I am proud of myself for correctly applying hide and show to several divs, and for making all buttons function correctly.
+
+I normally find responsiveness a relatively easy task, so therefore I was surprised that it was such a struggle for me within this project. I ended up utilizing 7 media queries in order to have the correct oval shape that would not break when adapted to different device sizes. However, despite the responsiveness issues, I was able to ensure that my web app looks great on all devices. As suggested in grading for Week 3, I even reduced the extra space at the top of the webpage to ensure that all features look great on mobile.
+
+This project has greatly enhanced my knowledge of HTML, CSS, Javascript, and jQuery. I now feel comfortable making a webpage from scratch, making it perform functions, and adding beautification to the page.
